@@ -1,0 +1,33 @@
+body{
+    height: 100%;
+}
+header{
+    height: 50px;
+    background-color: #212529;
+}
+h1{
+color: #000;
+font-family: Roboto;
+font-size: 30px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+h2{
+color: #000;
+font-family: Roboto;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+/* h3 */
+/* p */
+
+.div-ancora-margin{
+    margin-top: 1000px;
+    min-height:100%;
+}
+
+
