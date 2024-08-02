@@ -6,30 +6,44 @@
     <title>Portfólio Flávia Selicani Rêis</title>
     <link rel="stylesheet" href="estilo/main.css" type="text/css">
 </head>
-<header><a href="index.html">Portfólio Flávia Selicani Reis</a></header>
+    <header>
+        <img src="estilo/imagens/svg_home.svg" alt="" class="img-cabecalho">
+        <a href="#topo" class="a-cabecalho">Portfólio Flávia Selicani Reis</a>
+    </header>
 <body>
     <div class="div-apresentacao">
-        <h1>Olá Mundo!</h1>
+        <h1 id="topo">Olá Mundo!</h1>
         <h2>Bem Vindos ao meu portfólio!</h2>
-        <a href="https://www.linkedin.com/in/flaviaselicani/" class="contato" target="_blank">
-            <button>Contato</button>
+    </div>    
+    <div class="div-contato">
+        <a href="https://www.linkedin.com/in/flaviaselicani/" class="a-contato" target="_blank">
+            <button class="b-contato">Contato</button>
         </a>
-        <a href="https://github.com/flaviaselicani" class="contato" target="_blank">
-            <button>Repositório GitHub</button>
+        <a href="https://github.com/flaviaselicani" class="a-contato" target="_blank">
+            <button class="b-contato">Repositório GitHub</button>
         </a>
     </div>    
 
     <div class="div-botoes">
-        <a href="#ancoracurriculo">Currículo</a>
-        <a href="#ancoraprojetos">Projetos Figma</a>            
+        <div class="div-curriculo">
+            <img class="img-curriculo" src="estilo/imagens/img_div-botoes_curriculo.png" alt="">
+            <a class="a-curriculo" href="#ancoracurriculo">Currículo</a>
+        </div>
+        <div class="div-projetos">
+            <img class="img-projetos" src="estilo/imagens/img_div-botoes_projetos.png" alt="">
+            <a class="a-projetos" href="#ancoraprojetos">Projetos Figma</a>            
+        </div>       
     </div>
 
     <div class="div-botoes-ancora">
         <div id="ancoracurriculo" class="div-ancora-margin">
-            <div class="conteudo-esquerdo">
-                <!-- adicionar foto perfil <img> -->
+            <div class="div-conteudo-esquerdo">
+                <div class="div-titulo">
+                    <img src="estilo/imagens/img_perfil.png" alt="" class="img-perfil">
                 <h3>Flávia Selicani Rêis</h3>
                 <h5>Paraguaçu, Minas Gerais, Brasil</h5>
+                </div>
+                <div class="div-textoesquerdo">
                 <p>Estou aprimorando minhas habilidades em programação, pois meu objetivo é ser desenvolvedora Full Stack.</p>
                 <p>Atualmente estou praticando HTML, CSS e JavaScript.</p>
                 <p>Tenho pós-graduação em Desenvolvimento Web Full Stack mas não atuo na área de programação ainda.</p>
@@ -37,13 +51,22 @@
                 <p>Desenvolvo protótipos utilizando o Software Figma para desenhar o escopo e fluxos interativos.</p>
                 <p>Busco uma oportunidade de desenvolver front-end junior para que eu possa aperfeiçoar meu conhecimento em programação e contribuir para os projetos da empresa, aprendendo mais sobre HTML, CSS, JavaScript entre outras.</p>
             </div>
-            <div class="conteudo-direito">
+            </div>
+            <div class="div-conteudo-direito">
+                <div class="div-tituloexpe">
                 <h3>Experiência Recente</h3>
+                </div>
+                <div class="div-btexpe">
+                    <a href="" class="a-exp" target="_blank">
+                        <button class="b-exp">Outras Experiências</button>
+                    </a>
+                </div>
+                <div class="div-textoexpe">
                 <h4>BrasilSync</h4>
-                <p><strong>Atribuições:</strong>desenvolvimento de protótipos interativos de softwares SAAS eMOBILE, utilizando o software Figma; distribuição e organização de tarefas ao timede desenvolvimento, utilizando o software Jira; QA (testes manuais); documentaçãousuário; suporte help desk; desenvolvimento WEB, utilizando WordPress, Elementor, HTML, CSS e JavaScript.</p>
+                    <p><strong>Atribuições: </strong>desenvolvimento de protótipos interativos de softwares SAAS e MOBILE, utilizando o software Figma; distribuição e organização de tarefas ao timede desenvolvimento, utilizando o software Jira; QA (testes manuais); documentaçãousuário; suporte help desk; desenvolvimento WEB, utilizando WordPress, Elementor, HTML, CSS e JavaScript.</p>
                 <p><strong>dezembro de 2021 até o momento</strong></p>
                 <p><strong>Competências:</strong></p>
-                <ul></ul>
+                    <ul class="ul-comp-expe">
                     <li>Figma</li>
                     <li>Prototipação</li>
                     <li>HTML</li>
@@ -55,22 +78,28 @@
                     <li>Scrum</li>
                     <li>Kanban</li>
                 </ul>
+                </div>
+                <div class="div-textoform">
                 <h3>Formação Acadêmica</h3>
+                    <div class="div-textoformpos">
                 <h4>Pós-graduação Lato Sensu</h4>
                 <p><strong>Desenvolvimento Web Full Stack</strong></p>
                 <p>julho de 2022 - janeiro de 2023</p>
+                    </div>
+                    <div class="div-textoformgrad">
                 <h4>Graduação</h4>
                 <p><strong>Licenciatura em Computação</strong></p>
                 <p>fevereiro de 2017 - abril de 2022</p>
-                <ul class="outras-competencias">
-                    <li>Inglês A2 (QCRE)
-                    <a href="https://drive.google.com/file/d/1YrCzrg9OKg_66_K__YzXTXT5SJjH7SId/view" class="certif-ingles" target="_blank">Visualizar certificado</a>
-                    </li>    
-                </ul>
+                    </div>  
+                </div>
+                <div class="div-outrascompetencias">
+                       <div class="div-competencias"><p class="p-competencias">Inglês A2 (QCRE)</p></div>    
+                       <div class="div-certif-ingles"><a href="https://drive.google.com/file/d/1YrCzrg9OKg_66_K__YzXTXT5SJjH7SId/view" class="certif-ingles" target="_blank">Visualizar certificado</a></div>
+                </div>
             </div>
             
        </div>
-        <div id="ancoraprojetos" class="div-ancora-margin">
+        <div id="ancoraprojetos" class="div-ancora-margin" style="float: left;">
             <div class="projetos-projeto1">
                 <h3>Protótipo Feirinha 2.0</h3>
                 <p>Projeto em andamento desenvolvido para estudo da criação de protótipos MOBILE.
