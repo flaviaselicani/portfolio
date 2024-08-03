@@ -68,6 +68,10 @@ p{
     text-align: center;
     text-decoration: none;
 }
+.b-contato:hover{
+    color: #083FCC;
+    background-color: #ffffff;
+}
 
 .div-curriculo, .div-projetos{
     background-color: #ffffff;
@@ -114,6 +118,7 @@ p{
     float: right;
 }
 .b-exp{
+    float:right;
     margin: 10px;
     cursor: pointer;
     width: 250px;
@@ -125,6 +130,10 @@ p{
     padding: 10px 40px;
     text-align: center;
     text-decoration: none;
+}
+.b-exp:hover{
+    color: #083FCC;
+    background-color: #ffffff;
 }
 ul{
     list-style-type: none;
@@ -164,6 +173,25 @@ li{
 .certif-ingles{
     color:#ffffff;
 }
-
-
-
+#div-fademodal{
+    position: fixed;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: 5;
+}
+#modal{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: #444444;
+    z-index: 10;
+    padding: 20px;
+}
+#contmodal1,#contmodal2,#contmodal3,#contmodal4,#contmodal5{
+    padding-left: 10px;
+    border-left: 5px solid #083FCC;
+}
