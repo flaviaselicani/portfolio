@@ -117,7 +117,7 @@ p{
 .div-btexpe{
     float: right;
 }
-.b-exp{
+#b-exp{
     float:right;
     margin: 10px;
     cursor: pointer;
@@ -131,7 +131,7 @@ p{
     text-align: center;
     text-decoration: none;
 }
-.b-exp:hover{
+#b-exp:hover{
     color: #083FCC;
     background-color: #ffffff;
 }
@@ -173,6 +173,11 @@ li{
 .certif-ingles{
     color:#ffffff;
 }
+#div-fademodal,#modal{
+    transition: 0.5s;
+    opacity: 1;
+    pointer-events: all;
+}
 #div-fademodal{
     position: fixed;
     top:0;
@@ -182,14 +187,44 @@ li{
     background-color: rgba(0, 0, 0, 0.6);
     z-index: 5;
 }
+#div-fademodal{
+    top: 0;
+}
 #modal{
     position: fixed;
     top: 50%;
     left: 50%;
+    height: 500px;
+    max-height: 90%;
+    width: 700px;
+    max-width: 90%;
     transform: translate(-50%,-50%);
     background-color: #444444;
+    box-shadow: 2px 2px #212529 ;
     z-index: 10;
     padding: 20px;
+    overflow: auto;
+}
+#div-fademodal.esconder, #modal.esconder{
+    pointer-events: none;
+    opacity: 0;   
+}
+.div-modalcabecalho{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.b-fecharmodal{
+    margin: 5px;
+    cursor: pointer;
+    background-color: #083FCC;
+    border-radius: 10px;
+    box-shadow: 2px 2px #212529 ;
+    border: none;
+    color: #ffffff;
+    padding: 10px 40px;
+    text-align: center;
+    text-decoration: none;
 }
 #contmodal1,#contmodal2,#contmodal3,#contmodal4,#contmodal5{
     padding-left: 10px;
