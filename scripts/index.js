@@ -11,7 +11,7 @@ document.addEventListener("DOMContentLoaded", function() {
     });
 });
 
-//Modal
+//Modal outras experiências
 const abrirBotaoModal = document.querySelector(".open-modal");
 const fecharBotaoModal = document.querySelector(".b-fecharmodal");
 const modal = document.querySelector("#modal");

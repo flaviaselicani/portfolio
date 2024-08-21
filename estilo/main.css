@@ -37,10 +37,12 @@ font-style: normal;
 font-weight: 400;
 line-height: normal;
 }
-
 /* h3 */
 p{
     text-align: justify;
+}
+span{
+    font-weight: 700;
 }
 .div-apresentacao{
     display: flex;
@@ -54,8 +56,7 @@ p{
     align-items: center;
     margin: 50px;
 }
-
-.b-contato{
+.b-contato, .b-vizuflux{
     margin: 10px;
     cursor: pointer;
     width: 200px;
@@ -68,11 +69,10 @@ p{
     text-align: center;
     text-decoration: none;
 }
-.b-contato:hover{
+.b-contato:hover, .b-vizuflux:hover{
     color: #083FCC;
     background-color: #ffffff;
 }
-
 .div-curriculo, .div-projetos{
     background-color: #ffffff;
     border-radius: 20px;
@@ -93,7 +93,6 @@ p{
 .a-curriculo:hover, .a-projetos:hover{
     color: #ffffff;
 }    
-
 .div-ancora-margin{
     margin-top: 1000px;
     min-height:200%;
@@ -108,8 +107,9 @@ p{
     float: right;
     margin: 20px;
 }
-.img-perfil, .div-textoesquerdo{
+.img-perfil, .div-textoesquerdo, .div-textodireito{
     float: left;
+    margin-right: 20px;
 }
 .div-tituloexpe, .div-textoexpe, .div-textoform{
     float: left;
@@ -195,9 +195,9 @@ li{
     top: 50%;
     left: 50%;
     height: 500px;
-    max-height: 90%;
+    max-height: 80%;
     width: 700px;
-    max-width: 90%;
+    max-width: 80%;
     transform: translate(-50%,-50%);
     background-color: #444444;
     box-shadow: 2px 2px #212529 ;
@@ -229,4 +229,25 @@ li{
 #contmodal1,#contmodal2,#contmodal3,#contmodal4,#contmodal5{
     padding-left: 10px;
     border-left: 5px solid #083FCC;
+}
+.a-vizuflux{
+    text-decoration: none;
+}
+.b-vizuflux{
+    margin: 10px;
+    cursor: pointer;
+    width: 250px;
+    background-color: #083FCC;
+    border-radius: 10px;
+    box-shadow: 2px 2px #212529 ;
+    border: none;
+    color: #ffffff;
+    padding: 10px 40px;
+    text-align: center;
+    text-decoration: none;
+}
+.div-videoProjeto1, .div-videoProjeto1, .div-botoesAcessoFigma{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
